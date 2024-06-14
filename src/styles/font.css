@@ -1,0 +1,28 @@
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/PlusJakartaSansBold.ttf");
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/PlusJakartaSansSemiBold.ttf");
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/PlusJakartaSansRegular.ttf");
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/PlusJakartaSansRomanBold.ttf");
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+}

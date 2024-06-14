@@ -1,0 +1,48 @@
+module.exports = {
+  mode: "jit",
+  content: ["./src/**/**/*.{js,ts,jsx,tsx,html,mdx}", "./src/**/*.{js,ts,jsx,tsx,html,mdx}"],
+  darkMode: "class",
+  theme: {
+    screens: { md: { max: "1050px" }, sm: { max: "550px" } },
+    extend: {
+      colors: {
+        green: { 200: "#93c8a2", 400: "#43af79" },
+        light_green: { 50: "#f0f4eb", "50_01": "#f1f5eb", A700: "#83cd20", A700_19: "#83cd2019" },
+        red: { 300: "#f06a6a" },
+        teal: {
+          900: "#034833",
+          "900_4c": "#0348334c",
+          "900_cc": "#034833cc",
+          "900_99": "#03483399",
+          "900_3f": "#0348333f",
+          "900_b2": "#034833b2",
+        },
+        white: {
+          A700_cc: "#ffffffcc",
+          A700_33: "#ffffff33",
+          A700_19: "#ffffff19",
+          A700_4c: "#ffffff4c",
+          A700: "#ffffff",
+        },
+        black: { 900: "#0d0e10", "900_01": "#000000", "900_0c": "#0000000c", "900_19": "#00000019" },
+        deep_orange: { 300: "#ff7a59" },
+        blue_gray: { 100: "#d9d9d9", 800: "#33475b" },
+        gray: {
+          300: "#e3dbd8",
+          600: "#727272",
+          900: "#0c1724",
+          "900_02": "#1c1d21",
+          "900_03": "#111214",
+          "900_01": "#16171a",
+          "300_66": "#e3dbd866",
+        },
+        cyan: { 700: "#008fb4" },
+        black_600: "#656d76",
+        gray_shadow: "#00000029",
+      },
+      boxShadow: { xs: "0 0 60px 0 #0000000c", sm: "0 0 13px 5px #00000029" },
+      fontFamily: { plusjakartasans: "Plus Jakarta Sans", opensans: "Open Sans" },
+    },
+  },
+  plugins: [require("@tailwindcss/forms")],
+};
